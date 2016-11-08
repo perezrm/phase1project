@@ -1,0 +1,140 @@
+html {
+    background-color: #bcbcbc;
+    
+}
+
+html#home {
+    height: 100%;
+    background: url("../images/desk3.jpg") no-repeat center center;
+    background-size: cover;
+    
+}
+
+
+#logo {
+    float:left;
+    height: 30px;
+    margin: 15px 0 0 90px;
+    
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+/* nav bar navy */
+.menu { 
+    background: #0d2457;
+    height: 60px;
+    
+}
+
+/* targeting ul inside of .nav */
+.menu ul{
+    list-style: none;
+    float: right;
+    padding: 7px 0 0 0; 
+    margin-right: 55px;
+    
+}
+
+/* set the typography */
+.menu li { 
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    display: inline;
+    margin: 5px 40px 0 0;    
+
+}
+
+/* style unvisited, visited, hover, and active links 
+   targeting anchor tags off the underlines and changing the text color */
+.menu a {
+    text-decoration: none; 
+    color: #7cb6d4;
+
+}
+
+/* CURRENT link "active" to let the user know which page he/she is on */
+.menu .current {
+    color: #cddff4;
+    
+}
+
+/* "when the link has already been visited */
+
+
+/* make the color different when we hover over the link */
+.menu a:hover{
+     color: #f9a230;
+    
+}
+
+/* make the color different when link is selected and click */
+.menu a:active {
+    color: white;
+    
+}
+
+.homediv{
+    background-color: transparent;
+}
+
+div {
+    width: 80%;
+    height: 500px;
+    margin: 2em auto;
+    background-color: rgba(205, 222, 242, 0.47);
+}
+
+
+    
+#myname h1 {
+    color: #cddff4;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    line-height: 55px;
+    padding: 165px 0 0 0;
+}
+
+#myname p {
+    color: #f9a230;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Crimson Text', serif;
+    text-align:center;
+    line-height: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
