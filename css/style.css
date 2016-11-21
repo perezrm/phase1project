@@ -1,5 +1,5 @@
 html {
-    background-color: #bcbcbc;
+    background-color: rgba(188, 188, 188, 0.64);
     
 }
 
@@ -7,7 +7,7 @@ html#home {
     height: 100%;
     background: url("../images/desk3.jpg") no-repeat center center;
     background-size: cover;
-    
+   
 }
 
 
@@ -26,9 +26,17 @@ body{
 }
 
 
+div {
+    width: 80%;
+    height: 500px;
+    margin: 2em auto;
+    background-color: rgba(205, 222, 242, 0.47);
+}
+
+
 /* nav bar navy */
 .menu { 
-    background: #0d2457;
+    background: rgba(13, 36, 87, 0.86);
     height: 60px;
     
 }
@@ -38,7 +46,7 @@ body{
     list-style: none;
     float: right;
     padding: 7px 0 0 0; 
-    margin-right: 55px;
+    margin-right: 52px;
     
 }
 
@@ -67,7 +75,7 @@ body{
     
 }
 
-/* "when the link has already been visited */
+/* working on "when the link has already been visited" */
 
 
 /* make the color different when we hover over the link */
@@ -85,35 +93,133 @@ body{
 .homediv{
     background-color: transparent;
 }
-
-div {
-    width: 80%;
-    height: 500px;
-    margin: 2em auto;
-    background-color: rgba(205, 222, 242, 0.47);
-}
-
-
-    
+ 
 #myname h1 {
     color: #cddff4;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 400;
     font-family: 'Crimson Text', serif;
     text-align: center;
     line-height: 55px;
-    padding: 165px 0 0 0;
+    padding: 180px 0 0 0;
 }
 
 #myname p {
     color: #f9a230;
     font-size: 24px;
-    font-weight: 400;
-    font-family: 'Crimson Text', serif;
+    font-weight: 300;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     text-align:center;
     line-height: 0;
 
 }
+
+/* body color for the work page */
+.work-bkgrd {
+    background-color: white;
+    
+}
+
+    /* image grid */
+div.container {
+    background-color: transparent;
+    height: auto;
+    width: 70%;
+    margin-top: 50px;
+    
+}
+
+
+/* thumb-image box */
+div.box {
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    padding: 5px;
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    margin: 0 0 40px 40px;
+    vertical-align: top;
+    border-radius: 4px;
+    transition: 0.3s;
+     -webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+
+/* thumb-image */
+div.box img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    background-color: transparent;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 14px;
+    text-align: center;
+    height:16px;
+    width: 100%;
+    margin: 0;
+    padding: 7px 0 25px 0;
+    
+}
+
+div.box:hover {
+    border: 1px solid #0f3a50;
+    box-shadow: 0 0 2px 1px rgba
+    (0, 140, 186, 0.5);
+}
+
+
+ /* about page */
+
+.intro {
+    background-color: transparent;
+    width: 65%;
+    padding-left: 100px;
+    
+}
+
+.intro h1{
+    margin-top: 55px;
+    margin-bottom: 0;
+    padding-top: 35px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 52px;
+    letter-spacing: -0.05em;
+    
+}
+
+.intro p{
+    width: 410px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    line-height: 1.6em;
+}
+
+p.intro-sub {
+    width: 410px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    color: #666666;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+   
+}
+
+#rmp-picture {
+    float: right;
+    margin-right: 70px;
+    margin-top: -300px;
+    width: 300px;
+	height: 300px;
+	border-radius: 150px;
+    border: 1px solid #bfbfbf;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+
+}
+
 
 
 
